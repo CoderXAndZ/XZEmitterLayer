@@ -14,6 +14,7 @@
 		848F84121FA86B0600A5AEFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F84101FA86B0600A5AEFC /* LaunchScreen.storyboard */; };
 		848F84151FA86B0600A5AEFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F84141FA86B0600A5AEFC /* main.m */; };
 		848F841F1FA86B0700A5AEFC /* XZEmitterLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F841E1FA86B0700A5AEFC /* XZEmitterLayerTests.m */; };
+		848F842B1FA86B3300A5AEFC /* XZEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F842A1FA86B3300A5AEFC /* XZEmitterLayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		848F841A1FA86B0700A5AEFC /* XZEmitterLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZEmitterLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848F841E1FA86B0700A5AEFC /* XZEmitterLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZEmitterLayerTests.m; sourceTree = "<group>"; };
 		848F84201FA86B0700A5AEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F84291FA86B3300A5AEFC /* XZEmitterLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZEmitterLayerView.h; sourceTree = "<group>"; };
+		848F842A1FA86B3300A5AEFC /* XZEmitterLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZEmitterLayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				848F84061FA86B0600A5AEFC /* AppDelegate.m */,
 				848F84081FA86B0600A5AEFC /* ViewController.h */,
 				848F84091FA86B0600A5AEFC /* ViewController.m */,
+				848F84291FA86B3300A5AEFC /* XZEmitterLayerView.h */,
+				848F842A1FA86B3300A5AEFC /* XZEmitterLayerView.m */,
 				848F840B1FA86B0600A5AEFC /* Main.storyboard */,
 				848F840E1FA86B0600A5AEFC /* Assets.xcassets */,
 				848F84101FA86B0600A5AEFC /* LaunchScreen.storyboard */,
@@ -208,6 +213,7 @@
 				848F840A1FA86B0600A5AEFC /* ViewController.m in Sources */,
 				848F84151FA86B0600A5AEFC /* main.m in Sources */,
 				848F84071FA86B0600A5AEFC /* AppDelegate.m in Sources */,
+				848F842B1FA86B3300A5AEFC /* XZEmitterLayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

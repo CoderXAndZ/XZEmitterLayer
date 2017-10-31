@@ -2,13 +2,16 @@
 //  ViewController.m
 //  XZEmitterLayer
 //
-//  Created by admin on 2017/10/31.
-//  Copyright © 2017年 XZ. All rights reserved.
+//  Created by admin on 2016/10/31.
+//  Copyright © 2016年 XZ. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "XZEmitterLayerView.h" // 粒子动画
 
 @interface ViewController ()
+
+@property (nonatomic, strong) XZEmitterLayerView *viewEmitter;
 
 @end
 
@@ -16,13 +19,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //
+    
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    // 添加粒子动画
+    [self.view addSubview:self.viewEmitter];
+}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (XZEmitterLayerView *)viewEmitter {
+    if (!_viewEmitter) {
+        _viewEmitter = [[XZEmitterLayerView alloc] initWithFrame:self.view.bounds];
+    }
+    return _viewEmitter;
 }
 
 
