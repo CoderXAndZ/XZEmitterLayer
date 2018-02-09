@@ -15,6 +15,7 @@
 		848F84151FA86B0600A5AEFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F84141FA86B0600A5AEFC /* main.m */; };
 		848F841F1FA86B0700A5AEFC /* XZEmitterLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F841E1FA86B0700A5AEFC /* XZEmitterLayerTests.m */; };
 		848F842B1FA86B3300A5AEFC /* XZEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F842A1FA86B3300A5AEFC /* XZEmitterLayerView.m */; };
+		849127B91FA9908E00A87B83 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849127B81FA9908E00A87B83 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		848F84201FA86B0700A5AEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848F84291FA86B3300A5AEFC /* XZEmitterLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZEmitterLayerView.h; sourceTree = "<group>"; };
 		848F842A1FA86B3300A5AEFC /* XZEmitterLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZEmitterLayerView.m; sourceTree = "<group>"; };
+		849127B81FA9908E00A87B83 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849127B91FA9908E00A87B83 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +72,7 @@
 				848F84041FA86B0600A5AEFC /* XZEmitterLayer */,
 				848F841D1FA86B0700A5AEFC /* XZEmitterLayerTests */,
 				848F84031FA86B0600A5AEFC /* Products */,
+				849127B71FA9908D00A87B83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +110,14 @@
 				848F84201FA86B0700A5AEFC /* Info.plist */,
 			);
 			path = XZEmitterLayerTests;
+			sourceTree = "<group>";
+		};
+		849127B71FA9908D00A87B83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				849127B81FA9908E00A87B83 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,7 +376,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4ZY3DZS4W;
 				INFOPLIST_FILE = XZEmitterLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XZ.XZEmitterLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,7 +391,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4ZY3DZS4W;
 				INFOPLIST_FILE = XZEmitterLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XZ.XZEmitterLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
